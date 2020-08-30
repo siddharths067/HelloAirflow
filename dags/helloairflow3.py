@@ -16,7 +16,7 @@ default_args = {
 }
 
 dag = DAG(
-    'lolwa',
+    'lolwa2',
     default_args=default_args,
     description="Hello World in Airflow",
     schedule_interval=timedelta(minutes=5),
